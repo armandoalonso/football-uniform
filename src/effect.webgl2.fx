@@ -24,7 +24,7 @@ void main(void)
 	{
 		newColor.rgb = helmet;
 	} 
-	else if (length(front.rgb - vec3(0,0,0)) <= tolerance)
+	else if (length(front.rgb - vec3(1,0.5,0)) <= tolerance)
 	{
 		newColor.rgb = helmet2;
 	}
@@ -40,7 +40,7 @@ void main(void)
 	{
 		newColor.rgb = jersey2;
 	}
-	else if (length(front.rgb - vec3(0,1,0) <= tolerance)
+	else if (length(front.rgb - vec3(0,1,0)) <= tolerance)
 	{
 		newColor.rgb = pants;
 	}

@@ -57,12 +57,12 @@ module.exports = {
     {
       type: "color",
       id: "helmet2",
-      value: [0,0,0],
+      value: [1,0.5,0],
       uniform: "helmet2",
       // precision: "lowp" // defaults to lowp if omitted
       interpolatable: true,
       name: "Helmet Secondary Color",
-      desc: "The secondary color of the helmet. (replaces black [0,0,0])",
+      desc: "The secondary color of the helmet. (replaces orange [1,0.5,0])",
     },
     {
       type: "color",
